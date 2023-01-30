@@ -5,7 +5,7 @@ const BLOG = {
   link: 'https://blog.maqicxu.com',
   description: 'Maqic 偶尔写写文字的地方',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
@@ -37,7 +37,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    provider: 'utterances', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
@@ -47,7 +47,7 @@ const BLOG = {
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: ''
+      repo: 'maqic/blog-comments'
     },
     cusdisConfig: {
       appId: 'cf56c3e1-27bf-41cf-b988-e7032e6e2c29', // data-app-id
