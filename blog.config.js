@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '氪记',
+  title: 'Maqic\'s Blog',
   author: 'Maqic Xu',
   email: 'maqic51@gmail.com',
   link: 'https://blog.maqicxu.com',
