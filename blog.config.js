@@ -1,11 +1,12 @@
 const BLOG = {
-  title: 'Maqic\'s Blog',
+  title: 'MTORY',
   author: 'Maqic Xu',
   email: 'maqic51@gmail.com',
   link: 'https://blog.maqicxu.com',
-  description: 'Maqic 偶尔写写文字的地方',
+  description: 'Maqic Story',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'light', // ['light', 'dark', 'auto'],
+  timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
